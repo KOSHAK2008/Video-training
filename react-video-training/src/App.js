@@ -1,13 +1,13 @@
 import './App.css';
-import Tehnologies from './components/Tehnologies/Tehnologies';
 import Header from './components/Header/Header';
+import Main from './components/Main/Main';
 
 const App = () => {
   return (
-    <>
+    <div className='app-wrapper'>
       <Header />
-      <Tehnologies />
-    </>
+      <Main />
+    </div>
   );
 }
 

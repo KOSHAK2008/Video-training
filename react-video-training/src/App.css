@@ -1,3 +1,31 @@
-ul li {
-  list-style-type: upper-roman;
+.app-wrapper{
+  margin: auto;
+  display: flex;
+  width: 1200px;
+  flex-direction: column;
+}
+
+.header{
+  align-items: flex-start;
+  background-color: green;
+}
+
+.header img{
+  width: 50px;
+}
+
+.main{
+  display: flex;
+  width: 1200px;
+  flex-direction: row;
+}
+
+.nav{
+  width: 180px;
+background-color: yellow;
+}
+
+.content{
+  width: 1020px;
+background-color: blue;
 }

@@ -1,11 +1,10 @@
+import React from "react";
+
 const Header = () => {
     return (
-        <div>
-            <a href='#s'>About</a>&#8195;
-            <a href='#s'>Portfolio</a>&#8195;
-            <a href='#s'>My Photo</a>&#8195;
-
-        </div>
+        <header className='header'>
+            <img src='https://www.logowiks.com/dist/images/logo.png.pagespeed.ce.BJocOuRLqc.png' />
+        </header>
     );
 }
 
