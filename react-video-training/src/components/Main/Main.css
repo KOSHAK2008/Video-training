@@ -1,0 +1,11 @@
+.main{
+    display: flex;
+    width: 1200px;
+    flex-direction: row;
+}
+
+.app-wrapper-content{
+  display: flex;
+    width: 1020px;
+  background-color: blue;
+}

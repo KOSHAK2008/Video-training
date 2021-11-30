@@ -1,0 +1,8 @@
+.header{
+    align-items: flex-start;
+    background-color: green;
+  }
+  
+  .header img{
+    width: 50px;
+  }
